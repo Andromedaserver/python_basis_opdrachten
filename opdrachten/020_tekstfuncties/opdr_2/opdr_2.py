@@ -2,8 +2,17 @@
 # Naam student:
 # Groep:
 
-# Hier komt je code...
+# Hier komt je code... my_string = "Tinus gaat op zijn tandem naar de hottentottententoonstelling"  
 
-my_list = ...
+#Zorg ervoor dat de volgende zin op het scherm verschijnt:
 
-print()
+#> De letter "t" komt 10x voor in my_string
+
+
+my_list = 'Tinus gaat op zijn tandem naar de hottentottententoonstelling'
+
+#> De letter "t" komt 10x voor in my_string
+
+my_string = my_list.count("t") 
+
+print('De letter "t" komt' ,(my_string),'x voor in my_string') 

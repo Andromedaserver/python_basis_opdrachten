@@ -12,4 +12,5 @@ rivier_info = {
 rivieren = list(rivier_info.keys())
 # rivieren is nu een list met alleen de riviernamen: ['rijn', 'maas', 'nijl']
 
-# Hier jouw code.....
+print(rivieren[1])
+print(rivieren[0])

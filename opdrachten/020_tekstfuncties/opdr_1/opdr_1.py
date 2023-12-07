@@ -16,4 +16,4 @@ voornaam = "albert"
 achternaam = "einstein"
 naam = f"{voornaam} {achternaam}" 
 #print((voornaam + " " + achternaam) zei ooit: 'Als je niks fout doet, dan kun je ook niks leren!')
-print(naam.title())
+print(naam.title(),"zei ooit: 'Als je niks fout doet, dan kun je ook niks leren!'")
