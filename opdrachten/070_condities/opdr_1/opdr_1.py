@@ -6,7 +6,14 @@
 
 # Hier start de for-loop....
 
-my_list = []
 
-#for loop
-#if statement
+my_list = []
+hoger = []
+
+for num in range(1, 11):
+    my_list.append(num)
+
+for getal in my_list:
+    if getal > 4:
+        hoger.append(getal)
+print(hoger)
